@@ -2,6 +2,7 @@
 #include "include\GraficadorTuring.h"
 #include <sstream>
 
+
 using namespace std;
 
 int main()

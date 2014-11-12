@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1415767798 source:c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\main.cpp
+	<iostream>
+	"include\GraficadorTuring.h"
+	<sstream>
+
+1415767852 c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\include\graficadorturing.h
+	<winbgim.h>
+	<string>
+	<math.h>
+	<stdexcept>
+

@@ -5,7 +5,7 @@
 #include <string>
 #include <math.h>
 #include <stdexcept>
-
+#define M_PI		3.14159265358979323846
 using namespace std;
 
 class GraficadorTuring
