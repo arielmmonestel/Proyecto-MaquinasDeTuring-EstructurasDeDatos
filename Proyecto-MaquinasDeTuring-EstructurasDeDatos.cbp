@@ -15,6 +15,10 @@
 					<Add option="-g" />
 					<Add directory="include" />
 				</Compiler>
+				<Linker>
+					<Add option="-lbgi -lgdi32 -luser32" />
+					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libbgi.a" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/Proyecto-MaquinasDeTuring-EstructurasDeDatos" prefix_auto="1" extension_auto="1" />
@@ -34,9 +38,14 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/BSTree/BSTNode.h" />
+		<Unit filename="include/BSTree/BSTree.h" />
 		<Unit filename="include/GraficadorTuring.h" />
+		<Unit filename="include/HashTable/HashNode.h" />
+		<Unit filename="include/HashTable/HashTable.h" />
+		<Unit filename="include/HashTable/LinkedList.h" />
+		<Unit filename="include/HashTable/Node.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/GraficadorTuring.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

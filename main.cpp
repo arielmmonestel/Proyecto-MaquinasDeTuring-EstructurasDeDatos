@@ -1,6 +1,7 @@
-##include <iostream>
+#include <iostream>
 #include "include\GraficadorTuring.h"
 #include <sstream>
+
 
 using namespace std;
 
