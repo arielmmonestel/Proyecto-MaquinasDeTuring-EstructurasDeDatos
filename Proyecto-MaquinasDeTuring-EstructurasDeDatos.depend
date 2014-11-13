@@ -10,3 +10,14 @@
 	<math.h>
 	<stdexcept>
 
+1415775630 source:c:\users\ariel\documents\github\proyecto-maquinasdeturing-estructurasdedatos\main.cpp
+	<iostream>
+	"include\GraficadorTuring.h"
+	<sstream>
+
+1415775260 c:\users\ariel\documents\github\proyecto-maquinasdeturing-estructurasdedatos\include\graficadorturing.h
+	<winbgim.h>
+	<string>
+	<math.h>
+	<stdexcept>
+

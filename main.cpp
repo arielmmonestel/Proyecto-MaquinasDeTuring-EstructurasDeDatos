@@ -7,7 +7,8 @@ using namespace std;
 
 int main()
 {
-    int cant = 7;
+    int cant = 5
+    ;
     GraficadorTuring g(800, 650, cant);
     for (int i = 0; i < cant; i++) {
         stringstream str;

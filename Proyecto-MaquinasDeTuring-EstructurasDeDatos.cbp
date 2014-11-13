@@ -41,6 +41,7 @@
 		<Unit filename="include/BSTree/BSTNode.h" />
 		<Unit filename="include/BSTree/BSTree.h" />
 		<Unit filename="include/GraficadorTuring.h" />
+		<Unit filename="include/Grafo.h" />
 		<Unit filename="include/HashTable/HashNode.h" />
 		<Unit filename="include/HashTable/HashTable.h" />
 		<Unit filename="include/HashTable/LinkedList.h" />
