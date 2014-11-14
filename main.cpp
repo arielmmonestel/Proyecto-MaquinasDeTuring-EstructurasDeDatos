@@ -9,6 +9,8 @@ using namespace std;
 int main()
 {
 
+    Grafo maquinaTuring("C:/turing.txt");
+
     int cant = 5;
 
     /*

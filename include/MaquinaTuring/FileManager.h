@@ -25,10 +25,10 @@ class FileManager
 
 
 
-        string* StringSplit(char pCharacter, string pLine){
-            int arraySize = GetCharOcurrenceCount(pCharacter, pLine)+1;
+        string* StringSplit(char pCharacter, string pLine, int *arraySize){
+            *arraySize = GetCharOcurrenceCount(pCharacter, pLine)+1;
 
-            string* result = new string[arraySize];
+            string* result = new string[*arraySize];
 
 
             int spotIndex = 0;

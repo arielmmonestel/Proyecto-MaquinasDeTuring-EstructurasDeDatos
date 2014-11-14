@@ -45,6 +45,7 @@ private:
         int a = 33;
         int result = 0;
 
+        //cout << pKey << ": ";
 
         int exponente = 0;
 
@@ -87,6 +88,7 @@ private:
         //int N = 547;
 
         res = abs(a*pHashCode+b) % maxSize;
+        //cout <<"compress: " << res << endl;
         return res;
 
     }
@@ -105,10 +107,11 @@ private:
 
 
 public:
-    HashTable(int pMaxSize = 1021) {
+    HashTable(int pMaxSize = 1024) {
         maxSize = pMaxSize;
         elements = new LinkedList<Key,E>[maxSize];
         size = 0;
+        //cout << ">>>>>>>>>>>>>>>>>>>>>>>> index: " << maxSize << endl;
     }
     ~HashTable() {
         delete [] elements;
@@ -123,6 +126,7 @@ public:
     // la tabla hash.
     void put(Key pKey, E pElement) throw(runtime_error) {
         int index = h(pKey);
+        //cout << endl << "----- key: " << pKey  << ", index put: " << index << ", max size: " << maxSize << endl;
         if (elements[index].containsKey(pKey)) {
             throw runtime_error("Key already exists.");
         }
@@ -134,7 +138,7 @@ public:
     // Lanza excepción si la llave no se encuentra.
     void set(Key pKey, E pElement) throw(runtime_error) {
         int index = h(pKey);
-        cout<< "hola";
+        //cout<< "hola";
         if (!(elements[index].containsKey(pKey))) {
             throw runtime_error("Key not found.");
         }
@@ -151,6 +155,7 @@ public:
         if (!(elements[index].containsKey(pKey))) {
             throw runtime_error("Key not found.");
         }
+        //cout << "get ********************> " << pKey << ", index: " << index <<endl;
         elements[index].moveToNode(pKey);
         return elements[index].getElement();
     }
