@@ -18,6 +18,7 @@ private:
 
     // Función hash
     int h(Key pKey) {
+
         return compress(hashCodePolynomial(pKey));
     }
 
@@ -43,6 +44,7 @@ private:
     int hashCodePolynomial(string pKey) {
         int a = 33;
         int result = 0;
+
 
         int exponente = 0;
 
@@ -82,10 +84,9 @@ private:
 
         int a = 1097;
         int b = 1279;
-        int N = 547;
+        //int N = 547;
 
-        res = abs(a*pHashCode+b) % N;
-
+        res = abs(a*pHashCode+b) % maxSize;
         return res;
 
     }
@@ -133,10 +134,13 @@ public:
     // Lanza excepción si la llave no se encuentra.
     void set(Key pKey, E pElement) throw(runtime_error) {
         int index = h(pKey);
+        cout<< "hola";
         if (!(elements[index].containsKey(pKey))) {
             throw runtime_error("Key not found.");
         }
+
         elements[index].moveToNode(pKey);
+
         elements[index].setElement(pElement);
 
     }
@@ -165,6 +169,11 @@ public:
     // Retorna la cantidad de nodos en la tabla hash.
     int getSize() {
         return size;
+    }
+
+    // Retorna la cantidad de nodos en la tabla hash.
+    int getMaxSize() {
+        return maxSize;
     }
 };
 

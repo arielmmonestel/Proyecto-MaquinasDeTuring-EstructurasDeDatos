@@ -1,6 +1,6 @@
 #ifndef NODE_H
 #define NODE_H
-
+#include "../MaquinaTuring/Transicion.h"
 template <typename E>
 class Node
 {

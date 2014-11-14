@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1415767798 source:c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\main.cpp
+1415941649 source:c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\main.cpp
 	<iostream>
-	"include\GraficadorTuring.h"
 	<sstream>
+	"GraficadorTuring.h"
+	"MaquinaTuring/Grafo.h"
 
 1415767852 c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\include\graficadorturing.h
 	<winbgim.h>
@@ -19,5 +20,29 @@
 	<winbgim.h>
 	<string>
 	<math.h>
+	<stdexcept>
+
+1415943736 c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\include\maquinaturing\grafo.h
+	"HashTable/HashTable.h"
+	"Transicion.h"
+	"FileManager.h"
+
+1415939140 c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\include\hashtable\hashtable.h
+	"HashNode.h"
+	"LinkedList.h"
+	<stdexcept>
+	<math.h>
+	<cstdlib>
+
+1415932829 c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\include\hashtable\hashnode.h
+	"../MaquinaTuring/Transicion.h"
+
+1415767662 c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\include\hashtable\linkedlist.h
+	"HashNode.h"
+	<stdexcept>
+
+1415932829 c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\include\maquinaturing\transicion.h
+
+1415943612 c:\users\will\proyectos\c++\proyecto2estructuras\proyecto-maquinasdeturing-estructurasdedatos\include\maquinaturing\filemanager.h
 	<stdexcept>
 

@@ -1,14 +1,17 @@
 #include <iostream>
-#include "include\GraficadorTuring.h"
 #include <sstream>
+#include "GraficadorTuring.h"
+#include "MaquinaTuring/Grafo.h"
 
 
 using namespace std;
 
 int main()
 {
-    int cant = 5
-    ;
+
+    int cant = 5;
+
+    /*
     GraficadorTuring g(800, 650, cant);
     for (int i = 0; i < cant; i++) {
         stringstream str;
@@ -22,5 +25,9 @@ int main()
     }
     g.dibujarEstados();
     getch();
-    return 0;
+    return 0;*/
 }
+
+
+// will baje esto no pesa mucho:
+//http://www.juegosparawindows.com/assassins-creed-unity-multilenguaje-espanol-pc

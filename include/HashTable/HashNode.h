@@ -1,6 +1,6 @@
 #ifndef HASHNODE_H
 #define HASHNODE_H
-
+#include "../MaquinaTuring/Transicion.h"
 template <typename Key, typename E>
 class HashNode
 {

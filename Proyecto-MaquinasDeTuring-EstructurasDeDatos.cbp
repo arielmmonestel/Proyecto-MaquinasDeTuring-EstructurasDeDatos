@@ -41,11 +41,13 @@
 		<Unit filename="include/BSTree/BSTNode.h" />
 		<Unit filename="include/BSTree/BSTree.h" />
 		<Unit filename="include/GraficadorTuring.h" />
-		<Unit filename="include/Grafo.h" />
 		<Unit filename="include/HashTable/HashNode.h" />
 		<Unit filename="include/HashTable/HashTable.h" />
 		<Unit filename="include/HashTable/LinkedList.h" />
 		<Unit filename="include/HashTable/Node.h" />
+		<Unit filename="include/MaquinaTuring/FileManager.h" />
+		<Unit filename="include/MaquinaTuring/Grafo.h" />
+		<Unit filename="include/MaquinaTuring/Transicion.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
